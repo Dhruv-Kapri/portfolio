@@ -25,7 +25,7 @@ export default function Works() {
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam deserunt dolore vero. Incidunt ea nihil sint. Velit."
           />
         </div>
-        <a href="" className="btn">
+        <a href="/" className="btn">
           See more
         </a>
       </div>

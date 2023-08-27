@@ -73,7 +73,7 @@ export default function Contact() {
                 placeholder="Your Message"
               ></textarea>
               <button type="submit" className="btn btn3">
-                submit
+                Submit
               </button>
             </form>
           </div>

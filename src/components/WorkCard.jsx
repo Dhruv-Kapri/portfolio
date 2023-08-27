@@ -5,7 +5,7 @@ export default function WorkCard(params) {
       <div className="layer">
         <h2>{params.title}</h2>
         <p>{params.content}</p>
-        <a href="#">
+        <a href="/">
           <i className="fas fa-external-link-alt"></i>
         </a>
       </div>
