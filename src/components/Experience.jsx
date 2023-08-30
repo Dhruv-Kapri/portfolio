@@ -10,22 +10,12 @@ export default function Experience(params) {
         <li>
           <span>2021 - Current</span>
           <br />
-          UI/UX Design training at ET Institute
+          Research intern at Indian Statistical Institute, Kolkata
         </li>
         <li>
-          <span>2018-2020</span>
+          <span>2021 - Current</span>
           <br />
-          Web app Development
-        </li>
-        <li>
-          <span>2017-2019</span>
-          <br />
-          UI/UX Design Executive at Coin Digital Ltd.
-        </li>
-        <li>
-          <span>2017-2019</span>
-          <br />
-          Internship at eKart e-commerce.
+          Research intern at Indian Institute of Technology, Kharagpur
         </li>
       </ul>
     </div>
