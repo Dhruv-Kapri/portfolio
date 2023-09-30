@@ -8,12 +8,12 @@ export default function Experience(params) {
     >
       <ul>
         <li>
-          <span>2021 - Current</span>
+          <span>2022 December - Current</span>
           <br />
           Research intern at Indian Statistical Institute, Kolkata
         </li>
         <li>
-          <span>2021 - Current</span>
+          <span>2023 March - Current</span>
           <br />
           Research intern at Indian Institute of Technology, Kharagpur
         </li>

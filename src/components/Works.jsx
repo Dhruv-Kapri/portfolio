@@ -1,7 +1,9 @@
 import WorkCard from "./WorkCard";
-import work1 from "../images/keeper.png";
-import work2 from "../images/portfolio.png";
-import work3 from "../images/work-3.png";
+import keeper from "../images/keeper.png";
+import portfolio from "../images/portfolio.png";
+import blog from "../images/blog.png"
+import nftMint from "../images/nft-mint.png"
+// import work3 from "../images/work-0.png";
 
 export default function Works() {
   return (
@@ -10,29 +12,31 @@ export default function Works() {
         <h1 className="sub-title">My Works</h1>
         <div className="work-list">
           <WorkCard
-            image={work1}
+            image={nftMint}
+            title="NFT Mint App"
+            content="Unlock the world of digital art ownership by minting, showcasing, and trading your NFT masterpieces."
+            url="https://dhruv-nft-mint.netlify.app/"
+          />
+          <WorkCard
+            image={blog}
+            title="Blog Website"
+            content="User-authenticated blog website: Share your thoughts, connect with readers, and build a thriving online community."
+            url="https://dhruv-mern-blog.netlify.app/"
+          />
+          <WorkCard
+            image={keeper}
             title="Keeper App"
             content="A note keeper app designed for you, where you can add , delete and track your notes according to your preferences."
             url="https://dhruvkapri-keeper.netlify.app/"
           />
           <WorkCard
-            image={work2}
+            image={portfolio}
             title="Portfolio Website"
             content="Personal portfolio website describing the various parts and stages of the development of professional persona."
             url="https://dhruvkapri-portfolio.netlify.app/"
           />
-          <WorkCard
-            image={work3}
-            title="Online Shopping App"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam deserunt dolore vero. Incidunt ea nihil sint. Velit."
-            url=""
-          />
-          <WorkCard
-            image={work3}
-            title="Online Shopping App"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam deserunt dolore vero. Incidunt ea nihil sint. Velit."
-            url=""
-          />
+          
+          
         </div>
         <a href="/" className="btn">
           See more
